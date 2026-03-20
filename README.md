@@ -19,5 +19,31 @@ Deployed a WordPress website using Docker Compose with a MariaDB database backen
 ## How to Run
 ```bash
 docker compose up -d
+
+(3 backticks alone on a line)
+
+---
+## 💾 Save + Push
+
+```bash
+CTRL + O
+ENTER
+CTRL + X
+```
+
+```bash
+git add .
+git commit -m "updated README"
+git push
+```
+
 Then go to:
 http://localhost:8081
+
+## Screenshots
+
+### WordPress Login Page
+![Login](./login.png)
+
+### WordPress Dashboard
+![Dashboard](./dashboard.png)
