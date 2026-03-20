@@ -31,15 +31,15 @@ Then open your browser and go to:
 
 ### WordPress Login Page
 
-![Login](./login.png)
+![Login](./Login.png)
 
 ### WordPress Dashboard
 
-![Dashboard](./dashboard.png)
+![Dashboard](./Dashboard.png)
 
 ### Docker Containers Running
 
-![Containers](./containers.png)
+![Containers](./Containers.png)
 
 ---
 
