@@ -47,3 +47,6 @@ http://localhost:8081
 
 ### WordPress Dashboard
 ![Dashboard](./dashboard.png)
+
+### Docker Containers Running
+![Containers](./containers.png)
