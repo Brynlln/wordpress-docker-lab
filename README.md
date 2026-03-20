@@ -1,52 +1,60 @@
-# WordPress Docker Lab
+## 🚀 WordPress Docker Lab
 
-## Overview
-Deployed a WordPress website using Docker Compose with a MariaDB database backend.
-
-## Technologies Used
-- Docker
-- Docker Compose
-- WordPress
-- MariaDB
-- macOS (M1)
-
-## What I Did
-- Created a multi-container Docker environment
-- Configured WordPress and database services
-- Troubleshot ARM (M1) compatibility issues
-- Successfully deployed and accessed WordPress locally
-
-## How to Run
-```bash
-docker compose up -d
-
-(3 backticks alone on a line)
+Deployed a multi-container WordPress environment using Docker on macOS (M1), including database integration and troubleshooting ARM compatibility issues.
 
 ---
-## 💾 Save + Push
+
+## 📌 What I Did
+
+* Created a multi-container Docker environment using Docker Compose
+* Configured WordPress and MySQL (MariaDB) services
+* Resolved ARM (Apple Silicon / M1) image compatibility issues
+* Successfully deployed and accessed WordPress locally
+
+---
+
+## ▶️ How to Run
 
 ```bash
-CTRL + O
-ENTER
-CTRL + X
+docker compose up -d
 ```
 
-```bash
-git add .
-git commit -m "updated README"
-git push
-```
+Then open your browser and go to:
 
-Then go to:
-http://localhost:8081
+**localhost:8081**
 
-## Screenshots
+> Note: This project runs locally and is not publicly hosted.
+
+---
+
+## 📸 Screenshots
 
 ### WordPress Login Page
+
 ![Login](./login.png)
 
 ### WordPress Dashboard
+
 ![Dashboard](./dashboard.png)
 
 ### Docker Containers Running
+
 ![Containers](./containers.png)
+
+---
+
+## 🛠️ Tech Used
+
+* Docker
+* Docker Compose
+* WordPress
+* MariaDB
+* macOS (M1)
+
+---
+
+## 💡 Key Learning
+
+Gained hands-on experience with containerization, multi-service deployments, and troubleshooting platform-specific compatibility issues.
+Then go to:
+http://localhost:8081
